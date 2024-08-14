@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Casablanca</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-entrada-cablanca">
+        <li class="text">Entrada Cablanca</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-parqueadero-cubierto">
+        <li class="text">Parqueadero cubierto</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-zona-de-eventos-y-piscina">
+        <li class="text">Zona de Eventos y Piscina</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-sala-comedor-amplio">
+        <li class="text">Sala Comedor Amplio</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-zona-lavanderia">
+        <li class="text">Zona Lavanderia</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-cocina-americana">
+        <li class="text">Cocina Americana</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-estudio-oficina">
+        <li class="text">Estudio Oficina</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-pasillo-habitaciones">
+        <li class="text">Pasillo Habitaciones</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-habitacion-2">
+        <li class="text">Habitacion 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-habitacion-3">
+        <li class="text">Habitacion 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-bao-central">
+        <li class="text">Baño Central</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-habitacion-pincipal">
+        <li class="text">Habitacion Pincipal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-habitacion-4">
+        <li class="text">Habitacion 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-mirador">
+        <li class="text">Mirador</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-segundo-piso-mirador">
+        <li class="text">Segundo Piso Mirador</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-jardin-y-aljibe">
+        <li class="text">Jardin y Aljibe</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-jardin-y-tanque-interno">
+        <li class="text">Jardin y Tanque interno</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-cuarto-solar-baterias">
+        <li class="text">Cuarto Solar Baterias</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-pasillo-jardin">
+        <li class="text">Pasillo Jardin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-bao-habitacion-principal">
+        <li class="text">Baño Habitacion Principal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-vestier-amplio-">
+        <li class="text">Vestier amplio </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-bao-habitacion-2">
+        <li class="text">Baño Habitacion 2</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
