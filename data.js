@@ -154,8 +154,8 @@ var APP_DATA = {
         {
           "yaw": -3.052603354192785,
           "pitch": 0.013312334425544137,
-          "title": "Zona de projeccion",
-          "text": "Area para projectar tus videos y verlos desde el Jacuzzi"
+          "title": "Zona de Audiovisuales",
+          "text": "Area para proyectar tus videos y verlos desde el Jacuzzi"
         },
         {
           "yaw": 0.3935969404534667,
@@ -167,7 +167,7 @@ var APP_DATA = {
           "yaw": -0.7153558770612136,
           "pitch": 0.35116596224296615,
           "title": "jacuzzi Interno",
-          "text": "Jacuzzi con zona de bebidas para somprilla, comodidad y diversion"
+          "text": "Jacuzzi con zona de bebidas para sombrilla, comodidad y diversion"
         },
         {
           "yaw": -2.296142487418841,
@@ -179,7 +179,7 @@ var APP_DATA = {
           "yaw": -1.8191998928852353,
           "pitch": 0.007136767131969535,
           "title": "Ventanas de alta seguridad",
-          "text": "Toda la cas tiene Anjeo y en la entrada Florida Room para evitar accesso de insectos. Rejas en Hierro con estilo europeo para proteccion."
+          "text": "Toda la casa tiene Anjeo y en la entrada Florida Room para evitar accesso de insectos. Rejas en Hierro con estilo europeo para proteccion."
         }
       ]
     },
@@ -261,6 +261,12 @@ var APP_DATA = {
           "pitch": -0.352406085474934,
           "title": "Lamparas Ventilador LED",
           "text": "Techo en PVC con aislante termico y tejas superiores arquitectonicas"
+        },
+        {
+          "yaw": 0.8628029177317718,
+          "pitch": 0.03970475203609425,
+          "title": "Pasillo",
+          "text": "Amplios e iluminados pasillos con accesso a cada habitacion y baño central"
         }
       ]
     },
@@ -294,8 +300,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.8346178024724509,
-          "pitch": 0.9751668381347631,
+          "yaw": -1.0291094926997673,
+          "pitch": 0.6426665363526105,
           "rotation": 5.497787143782138,
           "target": "5-cocina-americana"
         }
@@ -311,13 +317,13 @@ var APP_DATA = {
           "yaw": 2.956691471880573,
           "pitch": -0.06810960289048751,
           "title": "Espacio para Lavanderia",
-          "text": "Espacio Listo para torres o maquinarias de lavanderica conceccion Lista y Lavadero a"
+          "text": "Espacio Listo para torres o maquinarias de lavanderia conexion Lista y Lavadero&nbsp;"
         },
         {
           "yaw": -2.3890300632687023,
           "pitch": -0.1708785433391622,
           "title": "Caja Interna de tacos&nbsp;",
-          "text": "Sgunda caja de proteccion con tierra y tacos importados de alta durabilidad y facil cambio"
+          "text": "Segunda caja de proteccion con tierra y tacos importados de alta durabilidad y facil cambio"
         }
       ]
     },
@@ -351,8 +357,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.1274737730401867,
-          "pitch": 0.8742279957576642,
+          "yaw": -1.0139541142457063,
+          "pitch": 0.6008829270073797,
           "rotation": 0.7853981633974483,
           "target": "3-sala-comedor-amplio"
         },
@@ -373,20 +379,20 @@ var APP_DATA = {
         {
           "yaw": 0.7473320548503644,
           "pitch": 0.08455787230487743,
-          "title": "Conceciones y acceso a zona de Eventos&nbsp;",
-          "text": "Conecciones para todos tus equipors de cocina y accesso a barra americana exterior por ventalillas para que sirvas alimentos en el exterior"
+          "title": "Con secciones de acceso a zona de Eventos&nbsp;",
+          "text": "Conecciones para todos tus equipos de cocina y accesso a barra americana exterior por ventanillas para que sirvas alimentos en el exterior"
         },
         {
           "yaw": -0.17762586467893193,
           "pitch": 0.32585240762844236,
           "title": "Barra Estilo Americano",
-          "text": "Barra para usar en esa noches de Vino o como comedor auxiliar mintras preparas alimentos"
+          "text": "Barra para usar en esa noches de Vino o como comedor auxiliar mientras preparas alimentos"
         },
         {
           "yaw": 1.5039852891851098,
           "pitch": -0.001368815485095709,
           "title": "Hornos",
-          "text": "Mircohondas y Hornos amplios y suficientes. Coneccion independiente/"
+          "text": "Microhondas y Hornos amplios y suficientes. Conexion independiente/"
         }
       ]
     },
@@ -568,7 +574,7 @@ var APP_DATA = {
           "yaw": -0.008063343359134834,
           "pitch": -0.2420125772047257,
           "title": "Aire Acondicionado",
-          "text": "Airo acondicionado con inverter para reducion de electricidad"
+          "text": "Aire acondicionado con inverter para reducion de electricidad"
         },
         {
           "yaw": 1.2886536426659934,
@@ -738,8 +744,8 @@ var APP_DATA = {
         {
           "yaw": 0.01261483635653704,
           "pitch": 0.1106712477476286,
-          "title": "Televiso 70 pulgadas listo",
-          "text": "Conceciones internas para vicion sin cables"
+          "title": "Television 70 pulgadas listo",
+          "text": "Conexiones internas para tu TV sin cables"
         }
       ]
     },
@@ -835,19 +841,19 @@ var APP_DATA = {
           "yaw": -0.11388010426818518,
           "pitch": 0.5175605645798349,
           "title": "Mirador y tanque de agua",
-          "text": "Nunca vas a estar sin agua, y tienes la precion suficente para esas duchas revigorantes. El agua es pura sin quimicos y totalmente natural.&nbsp;"
+          "text": "Nunca vas a estar sin agua, y tienes la precion suficente para esas duchas refrecantes. El agua es pura sin quimicos y totalmente natural.&nbsp;"
         },
         {
           "yaw": -2.319006240443194,
           "pitch": -0.025839205932262743,
           "title": "Casa de seguridad",
-          "text": "Casa de seguridad vecina. Ellos cudan el area y los pastizales."
+          "text": "Casa de seguridad vecina. Ellos cuidan el area y los pastizales."
         },
         {
           "yaw": 2.6724714911223355,
           "pitch": 0.148291913267375,
           "title": "12 Paneles Solares",
-          "text": "12 panelse solares de 450 watts cada uno. Estos ayudan al mantenimiento electrico y simpre estan cargadas tus baterias"
+          "text": "12 paneles solares de 450 watts cada uno. Estos ayudan al mantenimiento electrico y simpre estan cargadas tus baterias"
         },
         {
           "yaw": 1.6592795816281516,
@@ -859,7 +865,7 @@ var APP_DATA = {
           "yaw": -3.11918736375652,
           "pitch": 0.12702408357726114,
           "title": "Teja Arquitectonica",
-          "text": "Teja arqutectonica enteriza para minimizar incidentes de agua"
+          "text": "Teja arquitectonica enteriza para minimizar incidentes de agua"
         }
       ]
     },
@@ -985,7 +991,7 @@ var APP_DATA = {
           "yaw": 2.849104989947225,
           "pitch": 0.2499205660355308,
           "title": "Aljibe",
-          "text": "Nunca se seca. Siempre tendras tu agua propia, ha sido probada en laboratorio y es potable. Tiene 8 metros de profundidad y tiene carbon actibado en el fondo con piedras filtradoras."
+          "text": "Nunca se seca. Siempre tendras tu agua propia, ha sido probada en laboratorio y es potable. Tiene 8 metros de profundidad y tiene carbon activado en el fondo con piedras filtradoras."
         }
       ]
     },
@@ -1048,7 +1054,7 @@ var APP_DATA = {
           "yaw": -1.163299888394448,
           "pitch": -0.06286585739048256,
           "title": "Tanque Interno Adaptable",
-          "text": "Puede ser usado como un jacuzzi o piscina interna, o puedes modificarlo para un criadero de pecess y ser autosuficioente en una emergencia o de pasatiempo"
+          "text": "Puede ser usado como un jacuzzi o piscina interna, o puedes modificarlo para un criadero de peces y ser autosuficiente en una emergencia o de pasatiempo"
         }
       ]
     },
@@ -1149,6 +1155,12 @@ var APP_DATA = {
           "pitch": 0.41057855771359897,
           "rotation": 0.7853981633974483,
           "target": "16-jardin-y-tanque-interno"
+        },
+        {
+          "yaw": -1.131199499153901,
+          "pitch": 0.13550439287434912,
+          "rotation": 0,
+          "target": "14-segundo-piso-mirador"
         }
       ],
       "infoHotspots": [
